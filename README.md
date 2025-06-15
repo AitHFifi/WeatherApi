@@ -4,13 +4,12 @@ A simple Node.js Express API to fetch weather data with Redis caching and rate l
 
 ## Setup
 
-1. Copy `.env.example` to `.env` and fill in your values.
-2. Install dependencies:
+1. Install dependencies:
    ```sh
    npm install
    ```
-3. Start Redis server locally or use a Redis cloud provider.
-4. Start the server:
+2. Start Redis server locally or use a Redis cloud provider.
+3. Start the server:
    ```sh
    npm start
    ```
